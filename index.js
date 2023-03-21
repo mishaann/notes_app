@@ -21,7 +21,7 @@ const months = [
   "November",
   "December",
 ];
-const notes = JSON.parse(localStorage.getItem("notes") || []);
+const notes = JSON.parse(localStorage.getItem("notes")) || [];
 let isUpdate = false,
   updateId;
 
