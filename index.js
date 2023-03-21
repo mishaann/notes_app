@@ -1,11 +1,11 @@
 "use strict";
 const addBox = document.querySelector(".add-box");
 const pupupBox = document.querySelector(".popup-box");
-const pupupTitle = pupupBox.querySelector("header p");
-const closeIcon = pupupBox.querySelector("header i");
-const addBtn = pupupBox.querySelector("button");
-const titleTag = pupupBox.querySelector("input");
-const descTag = pupupBox.querySelector("textarea");
+const pupupTitle = document.querySelector("#popup_p");
+const closeIcon = document.querySelector("#pupup_i");
+const addBtn = document.querySelector("#popup_add");
+const titleTag = document.querySelector("#popup_inp");
+const descTag = document.querySelector("#popup_txt");
 
 const months = [
   "January",
